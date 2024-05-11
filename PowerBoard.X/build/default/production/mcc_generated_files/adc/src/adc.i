@@ -1,4 +1,4 @@
-# 1 "mcc_generated_files/timer/src/tmr2.c"
+# 1 "mcc_generated_files/adc/src/adc.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "mcc_generated_files/timer/src/tmr2.c" 2
-# 38 "mcc_generated_files/timer/src/tmr2.c"
+# 1 "mcc_generated_files/adc/src/adc.c" 2
+# 38 "mcc_generated_files/adc/src/adc.c"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -8112,24 +8112,12 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 33 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 2 3
-# 38 "mcc_generated_files/timer/src/tmr2.c" 2
+# 38 "mcc_generated_files/adc/src/adc.c" 2
 
-# 1 "mcc_generated_files/timer/src/../tmr2.h" 1
-# 39 "mcc_generated_files/timer/src/../tmr2.h"
+# 1 "mcc_generated_files/adc/src/../adc.h" 1
+# 38 "mcc_generated_files/adc/src/../adc.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\c99\\stdbool.h" 1 3
-# 39 "mcc_generated_files/timer/src/../tmr2.h" 2
-# 55 "mcc_generated_files/timer/src/../tmr2.h"
- void TMR2_Initialize(void);
-# 64 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Start(void);
-# 73 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Stop(void);
-# 82 "mcc_generated_files/timer/src/../tmr2.h"
-uint8_t TMR2_Read(void);
-# 91 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Write(uint8_t timerVal);
-# 100 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_PeriodCountSet(size_t periodVal);
+# 38 "mcc_generated_files/adc/src/../adc.h" 2
 
 
 
@@ -8137,7 +8125,36 @@ void TMR2_PeriodCountSet(size_t periodVal);
 
 
 
-void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
+typedef uint16_t adc_result_t;
+
+
+
+
+
+
+typedef struct
+{
+    adc_result_t adcResult1;
+    adc_result_t adcResult2;
+} adc_sync_double_result_t;
+
+
+
+
+
+
+typedef enum
+{
+    posChannel_Temp = 0x1c,
+    posChannel_CTMU = 0x1d,
+    posChannel_DAC = 0x1e,
+    posChannel_FVRBuf2 = 0x1f,
+    LM35_in = 0x0
+} adc_channel_t;
+# 81 "mcc_generated_files/adc/src/../adc.h"
+void ADC_Initialize(void);
+# 90 "mcc_generated_files/adc/src/../adc.h"
+void ADC_SelectChannel(adc_channel_t channel);
 
 
 
@@ -8145,79 +8162,97 @@ void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
 
 
 
-void TMR2_Tasks(void);
-# 39 "mcc_generated_files/timer/src/tmr2.c" 2
-
-
-static void (*TMR2_OverflowCallback)(void);
-static void TMR2_DefaultOverflowCallback(void);
+void ADC_StartConversion(void);
+# 107 "mcc_generated_files/adc/src/../adc.h"
+_Bool ADC_IsConversionDone(void);
 
 
 
 
 
-void TMR2_Initialize(void){
 
 
+adc_result_t ADC_GetConversionResult(void);
+# 124 "mcc_generated_files/adc/src/../adc.h"
+adc_result_t ADC_GetConversion(adc_channel_t channel);
+# 133 "mcc_generated_files/adc/src/../adc.h"
+void ADC_TemperatureAcquisitionDelay(void);
+# 39 "mcc_generated_files/adc/src/adc.c" 2
 
-    PR2 = 0x3F;
-
-    TMR2 = 0x0;
-
-
-     PIR1bits.TMR2IF = 0;
-
-    T2CON = 0x1C;
-
-
-    TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);
-}
-
-void TMR2_Start(void)
+# 1 "mcc_generated_files/adc/src/../../system/clock.h" 1
+# 48 "mcc_generated_files/adc/src/../../system/clock.h"
+void CLOCK_Initialize(void);
+# 40 "mcc_generated_files/adc/src/adc.c" 2
+# 53 "mcc_generated_files/adc/src/adc.c"
+void ADC_Initialize(void)
 {
 
-    T2CONbits.TMR2ON = 1;
-}
+    ADCON1 = 0x0;
 
-void TMR2_Stop(void)
+
+    ADCON2 = 0x0;
+
+
+    ADRESL = 0x0;
+
+
+    ADRESH = 0x0;
+
+
+
+    ADCON0 = 0x3;
+
+
+    PIR1bits.ADIF = 0;
+
+}
+void ADC_SelectChannel(adc_channel_t channel)
 {
 
-    T2CONbits.TMR2ON = 0;
+    ADCON0bits.CHS = channel;
 }
 
-uint8_t TMR2_Read(void)
-{
-    uint8_t readVal;
-    readVal = TMR2;
-    return readVal;
-}
-
-void TMR2_Write(uint8_t timerVal)
+void ADC_StartConversion(void)
 {
 
-    TMR2 = timerVal;;
+    ADCON0bits.GO_nDONE = 1;
 }
 
-void TMR2_PeriodCountSet(size_t periodVal)
+_Bool ADC_IsConversionDone(void)
 {
-   PR2 = (uint8_t) periodVal;
+
+    return ((_Bool)(!ADCON0bits.GO_nDONE));
 }
 
-void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void)){
-    TMR2_OverflowCallback = InterruptHandler;
-}
-
-static void TMR2_DefaultOverflowCallback(void){
-
-
-}
-
-void TMR2_Tasks(void)
+adc_result_t ADC_GetConversionResult(void)
 {
-    if(PIR1bits.TMR2IF)
+
+    return ((adc_result_t)((ADRESH << 8) + ADRESL));
+}
+
+adc_result_t ADC_GetConversion(adc_channel_t channel)
+{
+
+    ADCON0bits.CHS = channel;
+
+    ADCON0bits.ADON = 1;
+
+
+    _delay((unsigned long)((8)*(8000000/4000000.0)));
+
+
+    ADCON0bits.GO_nDONE = 1;
+
+
+    while (ADCON0bits.GO_nDONE)
     {
-
-        PIR1bits.TMR2IF = 0;
-        TMR2_OverflowCallback();
     }
+
+
+    return ((adc_result_t)((ADRESH << 8) + ADRESL));
+}
+
+void ADC_TemperatureAcquisitionDelay(void)
+{
+    _delay((unsigned long)((200)*(8000000/4000000.0)));
 }

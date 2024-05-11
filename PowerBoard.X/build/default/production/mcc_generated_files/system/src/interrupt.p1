@@ -1,11 +1,172 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F4881 `(v ~T0 @X0 0 tf ]
-"9357 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9357: extern volatile unsigned char PR2 __attribute__((address(0xFBB)));
-[v _PR2 `Vuc ~T0 @X0 0 e@4027 ]
-"9377
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9377: extern volatile unsigned char TMR2 __attribute__((address(0xFBC)));
-[v _TMR2 `Vuc ~T0 @X0 0 e@4028 ]
+[v F5489 `(v ~T0 @X0 0 tf ]
+[v F5491 `(v ~T0 @X0 0 tf ]
+[v F5493 `(v ~T0 @X0 0 tf ]
+"12139 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12139:     struct {
+[s S541 :1 `uc 1 ]
+[n S541 . NOT_BOR ]
+"12142
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12142:     struct {
+[s S542 :1 `uc 1 :1 `uc 1 ]
+[n S542 . . NOT_POR ]
+"12146
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12146:     struct {
+[s S543 :2 `uc 1 :1 `uc 1 ]
+[n S543 . . NOT_PD ]
+"12150
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12150:     struct {
+[s S544 :3 `uc 1 :1 `uc 1 ]
+[n S544 . . NOT_TO ]
+"12154
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12154:     struct {
+[s S545 :4 `uc 1 :1 `uc 1 ]
+[n S545 . . NOT_RI ]
+"12158
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12158:     struct {
+[s S546 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S546 . nBOR nPOR nPD nTO nRI . SBOREN IPEN ]
+"12168
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12168:     struct {
+[s S547 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S547 . BOR POR PD TO RI ]
+"12138
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12138: typedef union {
+[u S540 `S541 1 `S542 1 `S543 1 `S544 1 `S545 1 `S546 1 `S547 1 ]
+[n S540 . . . . . . . . ]
+"12176
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 12176: extern volatile RCONbits_t RCONbits __attribute__((address(0xFD0)));
+[v _RCONbits `VS540 ~T0 @X0 0 e@4048 ]
+"13231
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13231:     struct {
+[s S612 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S612 . IOCIF INT0IF TMR0IF IOCIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"13241
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13241:     struct {
+[s S613 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S613 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"13251
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13251:     struct {
+[s S614 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S614 . . GIEL GIEH ]
+"13230
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13230: typedef union {
+[u S611 `S612 1 `S613 1 `S614 1 ]
+[n S611 . . . . ]
+"13257
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13257: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS611 ~T0 @X0 0 e@4082 ]
+"13154
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13154:     struct {
+[s S608 :7 `uc 1 :1 `uc 1 ]
+[n S608 . . NOT_RBPU ]
+"13158
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13158:     struct {
+[s S609 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S609 . IOCIP . TMR0IP . INTEDG2 INTEDG1 INTEDG0 nRBPU ]
+"13168
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13168:     struct {
+[s S610 :2 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 ]
+[n S610 . . T0IP . RBPU ]
+"13153
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13153: typedef union {
+[u S607 `S608 1 `S609 1 `S610 1 ]
+[n S607 . . . . ]
+"13175
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13175: extern volatile INTCON2bits_t INTCON2bits __attribute__((address(0xFF1)));
+[v _INTCON2bits `VS607 ~T0 @X0 0 e@4081 ]
+[v F6 `(v ~T0 @X0 0 tf ]
+"237 mcc_generated_files/system/src/../../system/../system/interrupt.h
+[v _INT0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F6 ]
+"255
+[v _INT0_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
+"13062 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13062:     struct {
+[s S605 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S605 . INT1IF INT2IF . INT1IE INT2IE . INT1IP INT2IP ]
+"13072
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13072:     struct {
+[s S606 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S606 . INT1F INT2F . INT1E INT2E . INT1P INT2P ]
+"13061
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13061: typedef union {
+[u S604 `S605 1 `S606 1 ]
+[n S604 . . . ]
+"13083
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13083: extern volatile INTCON3bits_t INTCON3bits __attribute__((address(0xFF0)));
+[v _INTCON3bits `VS604 ~T0 @X0 0 e@4080 ]
+[v F15 `(v ~T0 @X0 0 tf ]
+"282 mcc_generated_files/system/src/../../system/../system/interrupt.h
+[v _INT1_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F15 ]
+"300
+[v _INT1_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
+[v F24 `(v ~T0 @X0 0 tf ]
+"327
+[v _INT2_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F24 ]
+"345
+[v _INT2_DefaultInterruptHandler `(v ~T0 @X0 0 ef ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"6493 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6493:     struct {
+[s S263 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S263 . CCP2IE TMR3IE HLVDIE BCLIE EEIE C2IE C1IE OSCFIE ]
+"6503
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6503:     struct {
+[s S264 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S264 . . LVDIE BCL1IE . CM2IE CM1IE ]
+"6511
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6511:     struct {
+[s S265 :6 `uc 1 :1 `uc 1 ]
+[n S265 . . CMIE ]
+"6492
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6492: typedef union {
+[u S262 `S263 1 `S264 1 `S265 1 ]
+[n S262 . . . . ]
+"6516
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6516: extern volatile PIE2bits_t PIE2bits __attribute__((address(0xFA0)));
+[v _PIE2bits `VS262 ~T0 @X0 0 e@4000 ]
+"6592
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6592:     struct {
+[s S267 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S267 . CCP2IF TMR3IF HLVDIF BCLIF EEIF C2IF C1IF OSCFIF ]
+"6602
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6602:     struct {
+[s S268 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S268 . . LVDIF BCL1IF . CM2IF CM1IF ]
+"6610
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6610:     struct {
+[s S269 :6 `uc 1 :1 `uc 1 ]
+[n S269 . . CMIF ]
+"6591
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6591: typedef union {
+[u S266 `S267 1 `S268 1 `S269 1 ]
+[n S266 . . . . ]
+"6615
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6615: extern volatile PIR2bits_t PIR2bits __attribute__((address(0xFA1)));
+[v _PIR2bits `VS266 ~T0 @X0 0 e@4001 ]
+"247 mcc_generated_files/system/src/../../system/../i2c_host/mssp1.h
+[; ;mcc_generated_files/system/src/../../system/../i2c_host/mssp1.h: 247: void I2C1_ERROR_ISR(void);
+[v _I2C1_ERROR_ISR `(v ~T0 @X0 0 ef ]
+"6196 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6196:     struct {
+[s S251 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S251 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ACTIE ]
+"6206
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6206:     struct {
+[s S252 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S252 . . SSP1IE TX1IE RC1IE . STIE ]
+"6214
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6214:     struct {
+[s S253 :7 `uc 1 :1 `uc 1 ]
+[n S253 . . PSPIE ]
+"6195
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6195: typedef union {
+[u S250 `S251 1 `S252 1 `S253 1 ]
+[n S250 . . . . ]
+"6219
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6219: extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
+[v _PIE1bits `VS250 ~T0 @X0 0 e@3997 ]
 "6295
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6295:     struct {
 [s S255 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -25,33 +186,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 "6318
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6318: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
 [v _PIR1bits `VS254 ~T0 @X0 0 e@3998 ]
-"9286
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9286: extern volatile unsigned char T2CON __attribute__((address(0xFBA)));
-[v _T2CON `Vuc ~T0 @X0 0 e@4026 ]
-[v F4876 `(v ~T0 @X0 0 tf ]
-"108 mcc_generated_files/timer/src/../tmr2.h
-[; ;mcc_generated_files/timer/src/../tmr2.h: 108: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F4876 ]
-"42 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 42: static void TMR2_DefaultOverflowCallback(void);
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
-"9292 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9292:     struct {
-[s S409 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
-[n S409 . T2CKPS TMR2ON T2OUTPS ]
-"9297
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9297:     struct {
-[s S410 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S410 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
-"9291
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9291: typedef union {
-[u S408 `S409 1 `S410 1 ]
-[n S408 . . . ]
-"9307
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9307: extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFBA)));
-[v _T2CONbits `VS408 ~T0 @X0 0 e@4026 ]
-[v F4894 `(v ~T0 @X0 0 tf ]
-[v F4896 `(v ~T0 @X0 0 tf ]
+"239 mcc_generated_files/system/src/../../system/../i2c_host/mssp1.h
+[; ;mcc_generated_files/system/src/../../system/../i2c_host/mssp1.h: 239: void I2C1_ISR(void);
+[v _I2C1_ISR `(v ~T0 @X0 0 ef ]
+"228 mcc_generated_files/system/src/../../system/../system/interrupt.h
+[v _INT0_CallBack `(v ~T0 @X0 0 ef ]
+[v F5501 `(v ~T0 @X0 0 tf ]
+[v F5503 `(v ~T0 @X0 0 tf ]
+[v F5505 `(v ~T0 @X0 0 tf ]
+"273
+[v _INT1_CallBack `(v ~T0 @X0 0 ef ]
+[v F5510 `(v ~T0 @X0 0 tf ]
+[v F5512 `(v ~T0 @X0 0 tf ]
+[v F5514 `(v ~T0 @X0 0 tf ]
+"318
+[v _INT2_CallBack `(v ~T0 @X0 0 ef ]
+[v F5519 `(v ~T0 @X0 0 tf ]
+[v F5521 `(v ~T0 @X0 0 tf ]
+[v F5523 `(v ~T0 @X0 0 tf ]
 "54 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 54: __asm("SRCON1 equ 0F57h");
 [; <" SRCON1 equ 0F57h ;# ">
@@ -676,175 +828,304 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13651
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13651: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"41 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 41: static void (*TMR2_OverflowCallback)(void);
-[v _TMR2_OverflowCallback `*F4881 ~T0 @X0 1 s ]
-"48
-[; ;mcc_generated_files/timer/src/tmr2.c: 48: void TMR2_Initialize(void){
-[v _TMR2_Initialize `(v ~T0 @X0 1 ef ]
+"38 mcc_generated_files/system/src/interrupt.c
+[; ;mcc_generated_files/system/src/interrupt.c: 38: void (*INT0_InterruptHandler)(void);
+[v _INT0_InterruptHandler `*F5489 ~T0 @X0 1 e ]
+"39
+[; ;mcc_generated_files/system/src/interrupt.c: 39: void (*INT1_InterruptHandler)(void);
+[v _INT1_InterruptHandler `*F5491 ~T0 @X0 1 e ]
+"40
+[; ;mcc_generated_files/system/src/interrupt.c: 40: void (*INT2_InterruptHandler)(void);
+[v _INT2_InterruptHandler `*F5493 ~T0 @X0 1 e ]
+"42
+[; ;mcc_generated_files/system/src/interrupt.c: 42: void INTERRUPT_Initialize (void)
+[v _INTERRUPT_Initialize `(v ~T0 @X0 1 ef ]
+"43
+[; ;mcc_generated_files/system/src/interrupt.c: 43: {
 {
-[e :U _TMR2_Initialize ]
+[e :U _INTERRUPT_Initialize ]
 [f ]
+"45
+[; ;mcc_generated_files/system/src/interrupt.c: 45:     RCONbits.IPEN = 0;
+[e = . . _RCONbits 5 7 -> -> 0 `i `uc ]
+"49
+[; ;mcc_generated_files/system/src/interrupt.c: 49:     (INTCONbits.INT0IF = 0);
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"50
+[; ;mcc_generated_files/system/src/interrupt.c: 50:     (INTCON2bits.INTEDG0 = 1);
+[e = . . _INTCON2bits 1 6 -> -> 1 `i `uc ]
 "52
-[; ;mcc_generated_files/timer/src/tmr2.c: 52:     PR2 = 0x3F;
-[e = _PR2 -> -> 63 `i `uc ]
-"54
-[; ;mcc_generated_files/timer/src/tmr2.c: 54:     TMR2 = 0x0;
-[e = _TMR2 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/system/src/interrupt.c: 52:     INT0_SetInterruptHandler(INT0_DefaultInterruptHandler);
+[e ( _INT0_SetInterruptHandler (1 &U _INT0_DefaultInterruptHandler ]
 "57
-[; ;mcc_generated_files/timer/src/tmr2.c: 57:      PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-"59
-[; ;mcc_generated_files/timer/src/tmr2.c: 59:     T2CON = 0x1C;
-[e = _T2CON -> -> 28 `i `uc ]
-"62
-[; ;mcc_generated_files/timer/src/tmr2.c: 62:     TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);
-[e ( _TMR2_OverflowCallbackRegister (1 &U _TMR2_DefaultOverflowCallback ]
-"63
-[; ;mcc_generated_files/timer/src/tmr2.c: 63: }
-[e :UE 636 ]
-}
+[; ;mcc_generated_files/system/src/interrupt.c: 57:     (INTCON3bits.INT1IF = 0);
+[e = . . _INTCON3bits 0 0 -> -> 0 `i `uc ]
+"58
+[; ;mcc_generated_files/system/src/interrupt.c: 58:     (INTCON2bits.INTEDG1 = 1);
+[e = . . _INTCON2bits 1 5 -> -> 1 `i `uc ]
+"60
+[; ;mcc_generated_files/system/src/interrupt.c: 60:     INT1_SetInterruptHandler(INT1_DefaultInterruptHandler);
+[e ( _INT1_SetInterruptHandler (1 &U _INT1_DefaultInterruptHandler ]
 "65
-[; ;mcc_generated_files/timer/src/tmr2.c: 65: void TMR2_Start(void)
-[v _TMR2_Start `(v ~T0 @X0 1 ef ]
+[; ;mcc_generated_files/system/src/interrupt.c: 65:     (INTCON3bits.INT2IF = 0);
+[e = . . _INTCON3bits 0 1 -> -> 0 `i `uc ]
 "66
-[; ;mcc_generated_files/timer/src/tmr2.c: 66: {
-{
-[e :U _TMR2_Start ]
-[f ]
+[; ;mcc_generated_files/system/src/interrupt.c: 66:     (INTCON2bits.INTEDG2 = 1);
+[e = . . _INTCON2bits 1 4 -> -> 1 `i `uc ]
 "68
-[; ;mcc_generated_files/timer/src/tmr2.c: 68:     T2CONbits.TMR2ON = 1;
-[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
-"69
-[; ;mcc_generated_files/timer/src/tmr2.c: 69: }
-[e :UE 637 ]
-}
+[; ;mcc_generated_files/system/src/interrupt.c: 68:     INT2_SetInterruptHandler(INT2_DefaultInterruptHandler);
+[e ( _INT2_SetInterruptHandler (1 &U _INT2_DefaultInterruptHandler ]
 "71
-[; ;mcc_generated_files/timer/src/tmr2.c: 71: void TMR2_Stop(void)
-[v _TMR2_Stop `(v ~T0 @X0 1 ef ]
-"72
-[; ;mcc_generated_files/timer/src/tmr2.c: 72: {
-{
-[e :U _TMR2_Stop ]
-[f ]
-"74
-[; ;mcc_generated_files/timer/src/tmr2.c: 74:     T2CONbits.TMR2ON = 0;
-[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
-"75
-[; ;mcc_generated_files/timer/src/tmr2.c: 75: }
-[e :UE 638 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 71: }
+[e :UE 645 ]
 }
-"77
-[; ;mcc_generated_files/timer/src/tmr2.c: 77: uint8_t TMR2_Read(void)
-[v _TMR2_Read `(uc ~T0 @X0 1 ef ]
-"78
-[; ;mcc_generated_files/timer/src/tmr2.c: 78: {
-{
-[e :U _TMR2_Read ]
-[f ]
-"79
-[; ;mcc_generated_files/timer/src/tmr2.c: 79:     uint8_t readVal;
-[v _readVal `uc ~T0 @X0 1 a ]
+[v $root$_INTERRUPT_InterruptManager `(v ~T0 @X0 0 e ]
 "80
-[; ;mcc_generated_files/timer/src/tmr2.c: 80:     readVal = TMR2;
-[e = _readVal _TMR2 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 80: void __attribute__((picinterrupt(("")))) INTERRUPT_InterruptManager (void)
+[v _INTERRUPT_InterruptManager `(v ~T1 @X0 1 ef ]
 "81
-[; ;mcc_generated_files/timer/src/tmr2.c: 81:     return readVal;
-[e ) _readVal ]
-[e $UE 639  ]
-"82
-[; ;mcc_generated_files/timer/src/tmr2.c: 82: }
-[e :UE 639 ]
-}
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _TMR2_Write `(v ~T0 @X0 1 ef1`uc ]
-"85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
+[; ;mcc_generated_files/system/src/interrupt.c: 81: {
 {
-[e :U _TMR2_Write ]
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _timerVal `uc ~T0 @X0 1 r1 ]
-"85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
+[e :U _INTERRUPT_InterruptManager ]
 [f ]
+"83
+[; ;mcc_generated_files/system/src/interrupt.c: 83:     if(INTCONbits.PEIE == 1)
+[e $ ! == -> . . _INTCONbits 1 6 `i -> 1 `i 647  ]
+"84
+[; ;mcc_generated_files/system/src/interrupt.c: 84:     {
+{
+"85
+[; ;mcc_generated_files/system/src/interrupt.c: 85:         if(PIE2bits.BCL1IE == 1 && PIR2bits.BCL1IF == 1)
+[e $ ! && == -> . . _PIE2bits 1 2 `i -> 1 `i == -> . . _PIR2bits 1 2 `i -> 1 `i 648  ]
+"86
+[; ;mcc_generated_files/system/src/interrupt.c: 86:         {
+{
 "87
-[; ;mcc_generated_files/timer/src/tmr2.c: 87:     TMR2 = timerVal;;
-[e = _TMR2 _timerVal ]
+[; ;mcc_generated_files/system/src/interrupt.c: 87:             I2C1_ERROR_ISR();
+[e ( _I2C1_ERROR_ISR ..  ]
 "88
-[; ;mcc_generated_files/timer/src/tmr2.c: 88: }
-[e :UE 640 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 88:         }
 }
+[e :U 648 ]
+"89
+[; ;mcc_generated_files/system/src/interrupt.c: 89:         if(PIE1bits.SSP1IE == 1 && PIR1bits.SSP1IF == 1)
+[e $ ! && == -> . . _PIE1bits 1 1 `i -> 1 `i == -> . . _PIR1bits 1 1 `i -> 1 `i 649  ]
 "90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _TMR2_PeriodCountSet `(v ~T0 @X0 1 ef1`ui ]
-"91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
+[; ;mcc_generated_files/system/src/interrupt.c: 90:         {
 {
-[e :U _TMR2_PeriodCountSet ]
-"90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _periodVal `ui ~T0 @X0 1 r1 ]
 "91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
-[f ]
+[; ;mcc_generated_files/system/src/interrupt.c: 91:             I2C1_ISR();
+[e ( _I2C1_ISR ..  ]
 "92
-[; ;mcc_generated_files/timer/src/tmr2.c: 92:    PR2 = (uint8_t) periodVal;
-[e = _PR2 -> _periodVal `uc ]
+[; ;mcc_generated_files/system/src/interrupt.c: 92:         }
+}
+[e :U 649 ]
 "93
-[; ;mcc_generated_files/timer/src/tmr2.c: 93: }
-[e :UE 641 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 93:     }
 }
-"95
-[; ;mcc_generated_files/timer/src/tmr2.c: 95: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void)){
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F4894 ]
-{
-[e :U _TMR2_OverflowCallbackRegister ]
-[v _InterruptHandler `*F4896 ~T0 @X0 1 r1 ]
-[f ]
+[e :U 647 ]
+"94
+[; ;mcc_generated_files/system/src/interrupt.c: 94: }
+[e :UE 646 ]
+}
 "96
-[; ;mcc_generated_files/timer/src/tmr2.c: 96:     TMR2_OverflowCallback = InterruptHandler;
-[e = _TMR2_OverflowCallback _InterruptHandler ]
+[; ;mcc_generated_files/system/src/interrupt.c: 96: void INT0_ISR(void)
+[v _INT0_ISR `(v ~T0 @X0 1 ef ]
 "97
-[; ;mcc_generated_files/timer/src/tmr2.c: 97: }
-[e :UE 642 ]
-}
-"99
-[; ;mcc_generated_files/timer/src/tmr2.c: 99: static void TMR2_DefaultOverflowCallback(void){
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 1 sf ]
+[; ;mcc_generated_files/system/src/interrupt.c: 97: {
 {
-[e :U _TMR2_DefaultOverflowCallback ]
+[e :U _INT0_ISR ]
 [f ]
+"98
+[; ;mcc_generated_files/system/src/interrupt.c: 98:     (INTCONbits.INT0IF = 0);
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"101
+[; ;mcc_generated_files/system/src/interrupt.c: 101:     INT0_CallBack();
+[e ( _INT0_CallBack ..  ]
 "102
-[; ;mcc_generated_files/timer/src/tmr2.c: 102: }
-[e :UE 643 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 102: }
+[e :UE 650 ]
 }
-"104
-[; ;mcc_generated_files/timer/src/tmr2.c: 104: void TMR2_Tasks(void)
-[v _TMR2_Tasks `(v ~T0 @X0 1 ef ]
 "105
-[; ;mcc_generated_files/timer/src/tmr2.c: 105: {
-{
-[e :U _TMR2_Tasks ]
-[f ]
+[; ;mcc_generated_files/system/src/interrupt.c: 105: void INT0_CallBack(void)
+[v _INT0_CallBack `(v ~T0 @X0 1 ef ]
 "106
-[; ;mcc_generated_files/timer/src/tmr2.c: 106:     if(PIR1bits.TMR2IF)
-[e $ ! != -> . . _PIR1bits 0 1 `i -> 0 `i 645  ]
-"107
-[; ;mcc_generated_files/timer/src/tmr2.c: 107:     {
+[; ;mcc_generated_files/system/src/interrupt.c: 106: {
 {
+[e :U _INT0_CallBack ]
+[f ]
+"108
+[; ;mcc_generated_files/system/src/interrupt.c: 108:     if(INT0_InterruptHandler)
+[e $ ! != _INT0_InterruptHandler -> -> 0 `i `*F5501 652  ]
 "109
-[; ;mcc_generated_files/timer/src/tmr2.c: 109:         PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/system/src/interrupt.c: 109:     {
+{
 "110
-[; ;mcc_generated_files/timer/src/tmr2.c: 110:         TMR2_OverflowCallback();
-[e ( *U _TMR2_OverflowCallback ..  ]
+[; ;mcc_generated_files/system/src/interrupt.c: 110:         INT0_InterruptHandler();
+[e ( *U _INT0_InterruptHandler ..  ]
 "111
-[; ;mcc_generated_files/timer/src/tmr2.c: 111:     }
+[; ;mcc_generated_files/system/src/interrupt.c: 111:     }
 }
-[e :U 645 ]
+[e :U 652 ]
 "112
-[; ;mcc_generated_files/timer/src/tmr2.c: 112: }
-[e :UE 644 ]
+[; ;mcc_generated_files/system/src/interrupt.c: 112: }
+[e :UE 651 ]
+}
+"114
+[; ;mcc_generated_files/system/src/interrupt.c: 114: void INT0_SetInterruptHandler(void (* InterruptHandler)(void)){
+[v _INT0_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F5503 ]
+{
+[e :U _INT0_SetInterruptHandler ]
+[v _InterruptHandler `*F5505 ~T0 @X0 1 r1 ]
+[f ]
+"115
+[; ;mcc_generated_files/system/src/interrupt.c: 115:     INT0_InterruptHandler = InterruptHandler;
+[e = _INT0_InterruptHandler _InterruptHandler ]
+"116
+[; ;mcc_generated_files/system/src/interrupt.c: 116: }
+[e :UE 653 ]
+}
+"118
+[; ;mcc_generated_files/system/src/interrupt.c: 118: void INT0_DefaultInterruptHandler(void){
+[v _INT0_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _INT0_DefaultInterruptHandler ]
+[f ]
+"121
+[; ;mcc_generated_files/system/src/interrupt.c: 121: }
+[e :UE 654 ]
+}
+"122
+[; ;mcc_generated_files/system/src/interrupt.c: 122: void INT1_ISR(void)
+[v _INT1_ISR `(v ~T0 @X0 1 ef ]
+"123
+[; ;mcc_generated_files/system/src/interrupt.c: 123: {
+{
+[e :U _INT1_ISR ]
+[f ]
+"124
+[; ;mcc_generated_files/system/src/interrupt.c: 124:     (INTCON3bits.INT1IF = 0);
+[e = . . _INTCON3bits 0 0 -> -> 0 `i `uc ]
+"127
+[; ;mcc_generated_files/system/src/interrupt.c: 127:     INT1_CallBack();
+[e ( _INT1_CallBack ..  ]
+"128
+[; ;mcc_generated_files/system/src/interrupt.c: 128: }
+[e :UE 655 ]
+}
+"131
+[; ;mcc_generated_files/system/src/interrupt.c: 131: void INT1_CallBack(void)
+[v _INT1_CallBack `(v ~T0 @X0 1 ef ]
+"132
+[; ;mcc_generated_files/system/src/interrupt.c: 132: {
+{
+[e :U _INT1_CallBack ]
+[f ]
+"134
+[; ;mcc_generated_files/system/src/interrupt.c: 134:     if(INT1_InterruptHandler)
+[e $ ! != _INT1_InterruptHandler -> -> 0 `i `*F5510 657  ]
+"135
+[; ;mcc_generated_files/system/src/interrupt.c: 135:     {
+{
+"136
+[; ;mcc_generated_files/system/src/interrupt.c: 136:         INT1_InterruptHandler();
+[e ( *U _INT1_InterruptHandler ..  ]
+"137
+[; ;mcc_generated_files/system/src/interrupt.c: 137:     }
+}
+[e :U 657 ]
+"138
+[; ;mcc_generated_files/system/src/interrupt.c: 138: }
+[e :UE 656 ]
+}
+"140
+[; ;mcc_generated_files/system/src/interrupt.c: 140: void INT1_SetInterruptHandler(void (* InterruptHandler)(void)){
+[v _INT1_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F5512 ]
+{
+[e :U _INT1_SetInterruptHandler ]
+[v _InterruptHandler `*F5514 ~T0 @X0 1 r1 ]
+[f ]
+"141
+[; ;mcc_generated_files/system/src/interrupt.c: 141:     INT1_InterruptHandler = InterruptHandler;
+[e = _INT1_InterruptHandler _InterruptHandler ]
+"142
+[; ;mcc_generated_files/system/src/interrupt.c: 142: }
+[e :UE 658 ]
+}
+"144
+[; ;mcc_generated_files/system/src/interrupt.c: 144: void INT1_DefaultInterruptHandler(void){
+[v _INT1_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _INT1_DefaultInterruptHandler ]
+[f ]
+"147
+[; ;mcc_generated_files/system/src/interrupt.c: 147: }
+[e :UE 659 ]
+}
+"148
+[; ;mcc_generated_files/system/src/interrupt.c: 148: void INT2_ISR(void)
+[v _INT2_ISR `(v ~T0 @X0 1 ef ]
+"149
+[; ;mcc_generated_files/system/src/interrupt.c: 149: {
+{
+[e :U _INT2_ISR ]
+[f ]
+"150
+[; ;mcc_generated_files/system/src/interrupt.c: 150:     (INTCON3bits.INT2IF = 0);
+[e = . . _INTCON3bits 0 1 -> -> 0 `i `uc ]
+"153
+[; ;mcc_generated_files/system/src/interrupt.c: 153:     INT2_CallBack();
+[e ( _INT2_CallBack ..  ]
+"154
+[; ;mcc_generated_files/system/src/interrupt.c: 154: }
+[e :UE 660 ]
+}
+"157
+[; ;mcc_generated_files/system/src/interrupt.c: 157: void INT2_CallBack(void)
+[v _INT2_CallBack `(v ~T0 @X0 1 ef ]
+"158
+[; ;mcc_generated_files/system/src/interrupt.c: 158: {
+{
+[e :U _INT2_CallBack ]
+[f ]
+"160
+[; ;mcc_generated_files/system/src/interrupt.c: 160:     if(INT2_InterruptHandler)
+[e $ ! != _INT2_InterruptHandler -> -> 0 `i `*F5519 662  ]
+"161
+[; ;mcc_generated_files/system/src/interrupt.c: 161:     {
+{
+"162
+[; ;mcc_generated_files/system/src/interrupt.c: 162:         INT2_InterruptHandler();
+[e ( *U _INT2_InterruptHandler ..  ]
+"163
+[; ;mcc_generated_files/system/src/interrupt.c: 163:     }
+}
+[e :U 662 ]
+"164
+[; ;mcc_generated_files/system/src/interrupt.c: 164: }
+[e :UE 661 ]
+}
+"166
+[; ;mcc_generated_files/system/src/interrupt.c: 166: void INT2_SetInterruptHandler(void (* InterruptHandler)(void)){
+[v _INT2_SetInterruptHandler `(v ~T0 @X0 1 ef1`*F5521 ]
+{
+[e :U _INT2_SetInterruptHandler ]
+[v _InterruptHandler `*F5523 ~T0 @X0 1 r1 ]
+[f ]
+"167
+[; ;mcc_generated_files/system/src/interrupt.c: 167:     INT2_InterruptHandler = InterruptHandler;
+[e = _INT2_InterruptHandler _InterruptHandler ]
+"168
+[; ;mcc_generated_files/system/src/interrupt.c: 168: }
+[e :UE 663 ]
+}
+"170
+[; ;mcc_generated_files/system/src/interrupt.c: 170: void INT2_DefaultInterruptHandler(void){
+[v _INT2_DefaultInterruptHandler `(v ~T0 @X0 1 ef ]
+{
+[e :U _INT2_DefaultInterruptHandler ]
+[f ]
+"173
+[; ;mcc_generated_files/system/src/interrupt.c: 173: }
+[e :UE 664 ]
 }

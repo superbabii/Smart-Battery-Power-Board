@@ -48,15 +48,15 @@ static void TMR2_DefaultOverflowCallback(void);
 void TMR2_Initialize(void){
 
     // Set TMR2 to the options selected in the User Interface
-    // PR 31; 
-    PR2 = 0x1F;
+    // PR 63; 
+    PR2 = 0x3F;
     // TMR 0x0; 
     TMR2 = 0x0;
 
     // Clearing IF flag.
      PIR1bits.TMR2IF = 0;
-    // TCKPS 1:1; TMRON on; TOUTPS 1:8; 
-    T2CON = 0x3C;
+    // TCKPS 1:1; TMRON on; TOUTPS 1:4; 
+    T2CON = 0x1C;
 
     // Set default overflow callback
     TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);

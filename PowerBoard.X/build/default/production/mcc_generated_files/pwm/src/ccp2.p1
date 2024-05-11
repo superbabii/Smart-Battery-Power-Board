@@ -1,57 +1,24 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F4881 `(v ~T0 @X0 0 tf ]
-"9357 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9357: extern volatile unsigned char PR2 __attribute__((address(0xFBB)));
-[v _PR2 `Vuc ~T0 @X0 0 e@4027 ]
-"9377
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9377: extern volatile unsigned char TMR2 __attribute__((address(0xFBC)));
-[v _TMR2 `Vuc ~T0 @X0 0 e@4028 ]
-"6295
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6295:     struct {
-[s S255 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S255 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ACTIF ]
-"6305
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6305:     struct {
-[s S256 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S256 . . SSP1IF TX1IF RC1IF . STIF ]
-"6313
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6313:     struct {
-[s S257 :7 `uc 1 :1 `uc 1 ]
-[n S257 . . PSPIF ]
-"6294
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6294: typedef union {
-[u S254 `S255 1 `S256 1 `S257 1 ]
-[n S254 . . . . ]
-"6318
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6318: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
-[v _PIR1bits `VS254 ~T0 @X0 0 e@3998 ]
-"9286
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9286: extern volatile unsigned char T2CON __attribute__((address(0xFBA)));
-[v _T2CON `Vuc ~T0 @X0 0 e@4026 ]
-[v F4876 `(v ~T0 @X0 0 tf ]
-"108 mcc_generated_files/timer/src/../tmr2.h
-[; ;mcc_generated_files/timer/src/../tmr2.h: 108: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F4876 ]
-"42 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 42: static void TMR2_DefaultOverflowCallback(void);
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
-"9292 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9292:     struct {
-[s S409 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
-[n S409 . T2CKPS TMR2ON T2OUTPS ]
-"9297
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9297:     struct {
-[s S410 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S410 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
-"9291
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9291: typedef union {
-[u S408 `S409 1 `S410 1 ]
-[n S408 . . . ]
-"9307
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9307: extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFBA)));
-[v _T2CONbits `VS408 ~T0 @X0 0 e@4026 ]
-[v F4894 `(v ~T0 @X0 0 tf ]
-[v F4896 `(v ~T0 @X0 0 tf ]
+"5586 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 5586: extern volatile unsigned char CCP2CON __attribute__((address(0xF97)));
+[v _CCP2CON `Vuc ~T0 @X0 0 e@3991 ]
+"4606
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4606: extern volatile unsigned char CCPR2H __attribute__((address(0xF91)));
+[v _CCPR2H `Vuc ~T0 @X0 0 e@3985 ]
+"4586
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4586: extern volatile unsigned char CCPR2L __attribute__((address(0xF90)));
+[v _CCPR2L `Vuc ~T0 @X0 0 e@3984 ]
+"191
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 191:     struct {
+[s S12 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S12 . C1TSEL . C2TSEL ]
+"190
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 190: typedef union {
+[u S11 `S12 1 ]
+[n S11 . . ]
+"197
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 197: extern volatile CCPTMRSbits_t CCPTMRSbits __attribute__((address(0xF59)));
+[v _CCPTMRSbits `VS11 ~T0 @X0 0 e@3929 ]
 "54 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 54: __asm("SRCON1 equ 0F57h");
 [; <" SRCON1 equ 0F57h ;# ">
@@ -676,175 +643,53 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13651
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13651: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"41 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 41: static void (*TMR2_OverflowCallback)(void);
-[v _TMR2_OverflowCallback `*F4881 ~T0 @X0 1 s ]
-"48
-[; ;mcc_generated_files/timer/src/tmr2.c: 48: void TMR2_Initialize(void){
-[v _TMR2_Initialize `(v ~T0 @X0 1 ef ]
+"50 mcc_generated_files/pwm/src/ccp2.c
+[; ;mcc_generated_files/pwm/src/ccp2.c: 50: void CCP2_Initialize(void)
+[v _CCP2_Initialize `(v ~T0 @X0 1 ef ]
+"51
+[; ;mcc_generated_files/pwm/src/ccp2.c: 51: {
 {
-[e :U _TMR2_Initialize ]
+[e :U _CCP2_Initialize ]
 [f ]
-"52
-[; ;mcc_generated_files/timer/src/tmr2.c: 52:     PR2 = 0x3F;
-[e = _PR2 -> -> 63 `i `uc ]
-"54
-[; ;mcc_generated_files/timer/src/tmr2.c: 54:     TMR2 = 0x0;
-[e = _TMR2 -> -> 0 `i `uc ]
-"57
-[; ;mcc_generated_files/timer/src/tmr2.c: 57:      PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-"59
-[; ;mcc_generated_files/timer/src/tmr2.c: 59:     T2CON = 0x1C;
-[e = _T2CON -> -> 28 `i `uc ]
-"62
-[; ;mcc_generated_files/timer/src/tmr2.c: 62:     TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);
-[e ( _TMR2_OverflowCallbackRegister (1 &U _TMR2_DefaultOverflowCallback ]
-"63
-[; ;mcc_generated_files/timer/src/tmr2.c: 63: }
+"55
+[; ;mcc_generated_files/pwm/src/ccp2.c: 55:     CCP2CON = 0xC;
+[e = _CCP2CON -> -> 12 `i `uc ]
+"58
+[; ;mcc_generated_files/pwm/src/ccp2.c: 58:     CCPR2H = 0x0;
+[e = _CCPR2H -> -> 0 `i `uc ]
+"61
+[; ;mcc_generated_files/pwm/src/ccp2.c: 61:     CCPR2L = 0x0;
+[e = _CCPR2L -> -> 0 `i `uc ]
+"64
+[; ;mcc_generated_files/pwm/src/ccp2.c: 64:     CCPTMRSbits.C2TSEL = 0x0;
+[e = . . _CCPTMRSbits 0 2 -> -> 0 `i `uc ]
+"65
+[; ;mcc_generated_files/pwm/src/ccp2.c: 65: }
 [e :UE 636 ]
 }
-"65
-[; ;mcc_generated_files/timer/src/tmr2.c: 65: void TMR2_Start(void)
-[v _TMR2_Start `(v ~T0 @X0 1 ef ]
-"66
-[; ;mcc_generated_files/timer/src/tmr2.c: 66: {
-{
-[e :U _TMR2_Start ]
-[f ]
+"67
+[; ;mcc_generated_files/pwm/src/ccp2.c: 67: void CCP2_LoadDutyValue(uint16_t dutyValue)
+[v _CCP2_LoadDutyValue `(v ~T0 @X0 1 ef1`us ]
 "68
-[; ;mcc_generated_files/timer/src/tmr2.c: 68:     T2CONbits.TMR2ON = 1;
-[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+[; ;mcc_generated_files/pwm/src/ccp2.c: 68: {
+{
+[e :U _CCP2_LoadDutyValue ]
+"67
+[; ;mcc_generated_files/pwm/src/ccp2.c: 67: void CCP2_LoadDutyValue(uint16_t dutyValue)
+[v _dutyValue `us ~T0 @X0 1 r1 ]
+"68
+[; ;mcc_generated_files/pwm/src/ccp2.c: 68: {
+[f ]
 "69
-[; ;mcc_generated_files/timer/src/tmr2.c: 69: }
-[e :UE 637 ]
-}
-"71
-[; ;mcc_generated_files/timer/src/tmr2.c: 71: void TMR2_Stop(void)
-[v _TMR2_Stop `(v ~T0 @X0 1 ef ]
+[; ;mcc_generated_files/pwm/src/ccp2.c: 69:    dutyValue &= 0x03FF;
+[e =& _dutyValue -> -> 1023 `i `us ]
 "72
-[; ;mcc_generated_files/timer/src/tmr2.c: 72: {
-{
-[e :U _TMR2_Stop ]
-[f ]
-"74
-[; ;mcc_generated_files/timer/src/tmr2.c: 74:     T2CONbits.TMR2ON = 0;
-[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+[; ;mcc_generated_files/pwm/src/ccp2.c: 72:     CCPR2L = ((dutyValue & 0x03FC) >> 2);
+[e = _CCPR2L -> >> & -> _dutyValue `ui -> -> 1020 `i `ui -> 2 `i `uc ]
 "75
-[; ;mcc_generated_files/timer/src/tmr2.c: 75: }
-[e :UE 638 ]
-}
-"77
-[; ;mcc_generated_files/timer/src/tmr2.c: 77: uint8_t TMR2_Read(void)
-[v _TMR2_Read `(uc ~T0 @X0 1 ef ]
-"78
-[; ;mcc_generated_files/timer/src/tmr2.c: 78: {
-{
-[e :U _TMR2_Read ]
-[f ]
-"79
-[; ;mcc_generated_files/timer/src/tmr2.c: 79:     uint8_t readVal;
-[v _readVal `uc ~T0 @X0 1 a ]
-"80
-[; ;mcc_generated_files/timer/src/tmr2.c: 80:     readVal = TMR2;
-[e = _readVal _TMR2 ]
-"81
-[; ;mcc_generated_files/timer/src/tmr2.c: 81:     return readVal;
-[e ) _readVal ]
-[e $UE 639  ]
-"82
-[; ;mcc_generated_files/timer/src/tmr2.c: 82: }
-[e :UE 639 ]
-}
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _TMR2_Write `(v ~T0 @X0 1 ef1`uc ]
-"85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
-{
-[e :U _TMR2_Write ]
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _timerVal `uc ~T0 @X0 1 r1 ]
-"85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
-[f ]
-"87
-[; ;mcc_generated_files/timer/src/tmr2.c: 87:     TMR2 = timerVal;;
-[e = _TMR2 _timerVal ]
-"88
-[; ;mcc_generated_files/timer/src/tmr2.c: 88: }
-[e :UE 640 ]
-}
-"90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _TMR2_PeriodCountSet `(v ~T0 @X0 1 ef1`ui ]
-"91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
-{
-[e :U _TMR2_PeriodCountSet ]
-"90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _periodVal `ui ~T0 @X0 1 r1 ]
-"91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
-[f ]
-"92
-[; ;mcc_generated_files/timer/src/tmr2.c: 92:    PR2 = (uint8_t) periodVal;
-[e = _PR2 -> _periodVal `uc ]
-"93
-[; ;mcc_generated_files/timer/src/tmr2.c: 93: }
-[e :UE 641 ]
-}
-"95
-[; ;mcc_generated_files/timer/src/tmr2.c: 95: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void)){
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F4894 ]
-{
-[e :U _TMR2_OverflowCallbackRegister ]
-[v _InterruptHandler `*F4896 ~T0 @X0 1 r1 ]
-[f ]
-"96
-[; ;mcc_generated_files/timer/src/tmr2.c: 96:     TMR2_OverflowCallback = InterruptHandler;
-[e = _TMR2_OverflowCallback _InterruptHandler ]
-"97
-[; ;mcc_generated_files/timer/src/tmr2.c: 97: }
-[e :UE 642 ]
-}
-"99
-[; ;mcc_generated_files/timer/src/tmr2.c: 99: static void TMR2_DefaultOverflowCallback(void){
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 1 sf ]
-{
-[e :U _TMR2_DefaultOverflowCallback ]
-[f ]
-"102
-[; ;mcc_generated_files/timer/src/tmr2.c: 102: }
-[e :UE 643 ]
-}
-"104
-[; ;mcc_generated_files/timer/src/tmr2.c: 104: void TMR2_Tasks(void)
-[v _TMR2_Tasks `(v ~T0 @X0 1 ef ]
-"105
-[; ;mcc_generated_files/timer/src/tmr2.c: 105: {
-{
-[e :U _TMR2_Tasks ]
-[f ]
-"106
-[; ;mcc_generated_files/timer/src/tmr2.c: 106:     if(PIR1bits.TMR2IF)
-[e $ ! != -> . . _PIR1bits 0 1 `i -> 0 `i 645  ]
-"107
-[; ;mcc_generated_files/timer/src/tmr2.c: 107:     {
-{
-"109
-[; ;mcc_generated_files/timer/src/tmr2.c: 109:         PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
-"110
-[; ;mcc_generated_files/timer/src/tmr2.c: 110:         TMR2_OverflowCallback();
-[e ( *U _TMR2_OverflowCallback ..  ]
-"111
-[; ;mcc_generated_files/timer/src/tmr2.c: 111:     }
-}
-[e :U 645 ]
-"112
-[; ;mcc_generated_files/timer/src/tmr2.c: 112: }
-[e :UE 644 ]
+[; ;mcc_generated_files/pwm/src/ccp2.c: 75:     CCP2CON = (uint8_t)((CCP2CON & 0xCF) | ((dutyValue & 0x0003) << 4));
+[e = _CCP2CON -> | -> & -> _CCP2CON `i -> 207 `i `ui << & -> _dutyValue `ui -> -> 3 `i `ui -> 4 `i `uc ]
+"76
+[; ;mcc_generated_files/pwm/src/ccp2.c: 76: }
+[e :UE 637 ]
 }

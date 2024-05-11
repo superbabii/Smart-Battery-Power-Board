@@ -1,57 +1,49 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[v F4881 `(v ~T0 @X0 0 tf ]
-"9357 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9357: extern volatile unsigned char PR2 __attribute__((address(0xFBB)));
-[v _PR2 `Vuc ~T0 @X0 0 e@4027 ]
-"9377
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9377: extern volatile unsigned char TMR2 __attribute__((address(0xFBC)));
-[v _TMR2 `Vuc ~T0 @X0 0 e@4028 ]
-"6295
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6295:     struct {
-[s S255 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S255 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ACTIF ]
-"6305
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6305:     struct {
-[s S256 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S256 . . SSP1IF TX1IF RC1IF . STIF ]
-"6313
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6313:     struct {
-[s S257 :7 `uc 1 :1 `uc 1 ]
-[n S257 . . PSPIF ]
-"6294
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6294: typedef union {
-[u S254 `S255 1 `S256 1 `S257 1 ]
-[n S254 . . . . ]
-"6318
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 6318: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
-[v _PIR1bits `VS254 ~T0 @X0 0 e@3998 ]
-"9286
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9286: extern volatile unsigned char T2CON __attribute__((address(0xFBA)));
-[v _T2CON `Vuc ~T0 @X0 0 e@4026 ]
-[v F4876 `(v ~T0 @X0 0 tf ]
-"108 mcc_generated_files/timer/src/../tmr2.h
-[; ;mcc_generated_files/timer/src/../tmr2.h: 108: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 0 ef1`*F4876 ]
-"42 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 42: static void TMR2_DefaultOverflowCallback(void);
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 0 sf ]
-"9292 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9292:     struct {
-[s S409 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
-[n S409 . T2CKPS TMR2ON T2OUTPS ]
-"9297
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9297:     struct {
-[s S410 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S410 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
-"9291
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9291: typedef union {
-[u S408 `S409 1 `S410 1 ]
-[n S408 . . . ]
-"9307
-[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 9307: extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFBA)));
-[v _T2CONbits `VS408 ~T0 @X0 0 e@4026 ]
-[v F4894 `(v ~T0 @X0 0 tf ]
-[v F4896 `(v ~T0 @X0 0 tf ]
+"285 ./mcc_generated_files/system/../uart/eusart1.h
+[; ;./mcc_generated_files/system/../uart/eusart1.h: 285: void EUSART1_Send(uint8_t txData);
+[v _EUSART1_Send `(v ~T0 @X0 0 ef1`uc ]
+"25 main.c
+[; ;main.c: 25:     adc_result_t adc_result = ADC_GetConversion(0);
+[c E4875 28 29 30 31 0 .. ]
+[n E4875 . posChannel_Temp posChannel_CTMU posChannel_DAC posChannel_FVRBuf2 LM35_in  ]
+"124 ./mcc_generated_files/system/../adc/adc.h
+[; ;./mcc_generated_files/system/../adc/adc.h: 124: adc_result_t ADC_GetConversion(adc_channel_t channel);
+[v _ADC_GetConversion `(us ~T0 @X0 0 ef1`E4875 ]
+"63 ./mcc_generated_files/system/../pwm/ccp2.h
+[; ;./mcc_generated_files/system/../pwm/ccp2.h: 63: void CCP2_LoadDutyValue(uint16_t dutyValue);
+[v _CCP2_LoadDutyValue `(v ~T0 @X0 0 ef1`us ]
+"116 ./mcc_generated_files/system/../i2c_host/mssp1.h
+[; ;./mcc_generated_files/system/../i2c_host/mssp1.h: 116: _Bool I2C1_Write(uint16_t address, uint8_t *data, size_t dataLength);
+[v _I2C1_Write `(a ~T0 @X0 0 ef3`us`*uc`ui ]
+"147
+[; ;./mcc_generated_files/system/../i2c_host/mssp1.h: 147: _Bool I2C1_Read(uint16_t address, uint8_t *data, size_t dataLength);
+[v _I2C1_Read `(a ~T0 @X0 0 ef3`us`*uc`ui ]
+[p mainexit ]
+"59 ./mcc_generated_files/system/../uart/../system/system.h
+[; ;./mcc_generated_files/system/../uart/../system/system.h: 59: void SYSTEM_Initialize(void);
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"121 C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.46\pic\include\c99\stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"4111 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4111:     struct {
+[s S173 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S173 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"4121
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4121:     struct {
+[s S174 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S174 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"4110
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4110: typedef union {
+[u S172 `S173 1 `S174 1 ]
+[n S172 . . . ]
+"4132
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 4132: extern volatile LATDbits_t LATDbits __attribute__((address(0xF8C)));
+[v _LATDbits `VS172 ~T0 @X0 0 e@3980 ]
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v2.46\pic\include\builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
 "54 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 54: __asm("SRCON1 equ 0F57h");
 [; <" SRCON1 equ 0F57h ;# ">
@@ -676,175 +668,260 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13651
 [; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18f45k50.h: 13651: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"41 mcc_generated_files/timer/src/tmr2.c
-[; ;mcc_generated_files/timer/src/tmr2.c: 41: static void (*TMR2_OverflowCallback)(void);
-[v _TMR2_OverflowCallback `*F4881 ~T0 @X0 1 s ]
-"48
-[; ;mcc_generated_files/timer/src/tmr2.c: 48: void TMR2_Initialize(void){
-[v _TMR2_Initialize `(v ~T0 @X0 1 ef ]
+"14 main.c
+[; ;main.c: 14: void UART_Send_String(const char* string) {
+[v _UART_Send_String `(v ~T0 @X0 1 ef1`*Cuc ]
 {
-[e :U _TMR2_Initialize ]
+[e :U _UART_Send_String ]
+[v _string `*Cuc ~T0 @X0 1 r1 ]
 [f ]
+"16
+[; ;main.c: 16:     while(*string != '\0') {
+[e $U 646  ]
+[e :U 647 ]
+{
+"18
+[; ;main.c: 18:         EUSART1_Send(*string++);
+[e ( _EUSART1_Send (1 -> *U ++ _string * -> -> 1 `i `x -> -> # *U _string `i `x `uc ]
+"19
+[; ;main.c: 19:     }
+}
+[e :U 646 ]
+"16
+[; ;main.c: 16:     while(*string != '\0') {
+[e $ != -> *U _string `ui -> 0 `ui 647  ]
+[e :U 648 ]
+"20
+[; ;main.c: 20: }
+[e :UE 645 ]
+}
+"22
+[; ;main.c: 22: float LM35_GetTemperature(void)
+[v _LM35_GetTemperature `(f ~T0 @X0 1 ef ]
+"23
+[; ;main.c: 23: {
+{
+[e :U _LM35_GetTemperature ]
+[f ]
+"25
+[; ;main.c: 25:     adc_result_t adc_result = ADC_GetConversion(0);
+[v _adc_result `us ~T0 @X0 1 a ]
+[e = _adc_result ( _ADC_GetConversion (1 -> -> 0 `i `E4875 ]
+"30
+[; ;main.c: 30:     float voltage = (float)adc_result * (5.0f / 1023.0f);
+[v _voltage `f ~T0 @X0 1 a ]
+[e = _voltage * -> _adc_result `f / -> .5.0 `f -> .1023.0 `f ]
+"31
+[; ;main.c: 31:     float temperature = voltage * 100.0f;
+[v _temperature `f ~T0 @X0 1 a ]
+[e = _temperature * _voltage -> .100.0 `f ]
+"33
+[; ;main.c: 33:     return temperature;
+[e ) _temperature ]
+[e $UE 649  ]
+"34
+[; ;main.c: 34: }
+[e :UE 649 ]
+}
+"37
+[; ;main.c: 37: uint16_t update_PWM_duty_cycle(float temperature) {
+[v _update_PWM_duty_cycle `(us ~T0 @X0 1 ef1`f ]
+{
+[e :U _update_PWM_duty_cycle ]
+[v _temperature `f ~T0 @X0 1 r1 ]
+[f ]
+"40
+[; ;main.c: 40:     uint16_t duty_cycle = 0;
+[v _duty_cycle `us ~T0 @X0 1 a ]
+[e = _duty_cycle -> -> 0 `i `us ]
+"41
+[; ;main.c: 41:     if (temperature <= 25) {
+[e $ ! <= _temperature -> -> 25 `i `f 651  ]
+{
+"42
+[; ;main.c: 42:         duty_cycle = 10;
+[e = _duty_cycle -> -> 10 `i `us ]
+"43
+[; ;main.c: 43:     } else if (temperature > 25 && temperature <= 30) {
+}
+[e $U 652  ]
+[e :U 651 ]
+[e $ ! && > _temperature -> -> 25 `i `f <= _temperature -> -> 30 `i `f 653  ]
+{
+"44
+[; ;main.c: 44:         duty_cycle = 50;
+[e = _duty_cycle -> -> 50 `i `us ]
+"45
+[; ;main.c: 45:     } else {
+}
+[e $U 654  ]
+[e :U 653 ]
+{
+"46
+[; ;main.c: 46:         duty_cycle = 90;
+[e = _duty_cycle -> -> 90 `i `us ]
+"47
+[; ;main.c: 47:     }
+}
+[e :U 654 ]
+[e :U 652 ]
+"50
+[; ;main.c: 50:     CCP2_LoadDutyValue(duty_cycle);
+[e ( _CCP2_LoadDutyValue (1 _duty_cycle ]
 "52
-[; ;mcc_generated_files/timer/src/tmr2.c: 52:     PR2 = 0x3F;
-[e = _PR2 -> -> 63 `i `uc ]
-"54
-[; ;mcc_generated_files/timer/src/tmr2.c: 54:     TMR2 = 0x0;
-[e = _TMR2 -> -> 0 `i `uc ]
-"57
-[; ;mcc_generated_files/timer/src/tmr2.c: 57:      PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 52:     return duty_cycle;
+[e ) _duty_cycle ]
+[e $UE 650  ]
+"53
+[; ;main.c: 53: }
+[e :UE 650 ]
+}
+"56
+[; ;main.c: 56: void SendCommand(uint8_t command) {
+[v _SendCommand `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _SendCommand ]
+[v _command `uc ~T0 @X0 1 r1 ]
+[f ]
+"58
+[; ;main.c: 58:     I2C1_Write(0x16, &command, sizeof(command));
+[e ( _I2C1_Write (3 , , -> -> 22 `i `us &U _command -> # _command `ui ]
 "59
-[; ;mcc_generated_files/timer/src/tmr2.c: 59:     T2CON = 0x1C;
-[e = _T2CON -> -> 28 `i `uc ]
+[; ;main.c: 59: }
+[e :UE 655 ]
+}
 "62
-[; ;mcc_generated_files/timer/src/tmr2.c: 62:     TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);
-[e ( _TMR2_OverflowCallbackRegister (1 &U _TMR2_DefaultOverflowCallback ]
+[; ;main.c: 62: uint16_t ReadData(void) {
+[v _ReadData `(us ~T0 @X0 1 ef ]
+{
+[e :U _ReadData ]
+[f ]
 "63
-[; ;mcc_generated_files/timer/src/tmr2.c: 63: }
-[e :UE 636 ]
-}
+[; ;main.c: 63:     uint16_t data;
+[v _data `us ~T0 @X0 1 a ]
 "65
-[; ;mcc_generated_files/timer/src/tmr2.c: 65: void TMR2_Start(void)
-[v _TMR2_Start `(v ~T0 @X0 1 ef ]
+[; ;main.c: 65:     I2C1_Read(0x17, (uint8_t*)&data, sizeof(data));
+[e ( _I2C1_Read (3 , , -> -> 23 `i `us -> &U _data `*uc -> # _data `ui ]
 "66
-[; ;mcc_generated_files/timer/src/tmr2.c: 66: {
-{
-[e :U _TMR2_Start ]
-[f ]
-"68
-[; ;mcc_generated_files/timer/src/tmr2.c: 68:     T2CONbits.TMR2ON = 1;
-[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+[; ;main.c: 66:     return data;
+[e ) _data ]
+[e $UE 656  ]
+"67
+[; ;main.c: 67: }
+[e :UE 656 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
 "69
-[; ;mcc_generated_files/timer/src/tmr2.c: 69: }
-[e :UE 637 ]
-}
+[; ;main.c: 69: int main(void)
+[v _main `(i ~T0 @X0 1 ef ]
+"70
+[; ;main.c: 70: {
+{
+[e :U _main ]
+[f ]
 "71
-[; ;mcc_generated_files/timer/src/tmr2.c: 71: void TMR2_Stop(void)
-[v _TMR2_Stop `(v ~T0 @X0 1 ef ]
-"72
-[; ;mcc_generated_files/timer/src/tmr2.c: 72: {
-{
-[e :U _TMR2_Stop ]
-[f ]
+[; ;main.c: 71:     SYSTEM_Initialize();
+[e ( _SYSTEM_Initialize ..  ]
+"73
+[; ;main.c: 73:     while(1)
+[e :U 659 ]
 "74
-[; ;mcc_generated_files/timer/src/tmr2.c: 74:     T2CONbits.TMR2ON = 0;
-[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
-"75
-[; ;mcc_generated_files/timer/src/tmr2.c: 75: }
-[e :UE 638 ]
-}
-"77
-[; ;mcc_generated_files/timer/src/tmr2.c: 77: uint8_t TMR2_Read(void)
-[v _TMR2_Read `(uc ~T0 @X0 1 ef ]
-"78
-[; ;mcc_generated_files/timer/src/tmr2.c: 78: {
+[; ;main.c: 74:     {
 {
-[e :U _TMR2_Read ]
-[f ]
+"76
+[; ;main.c: 76:         float temperature = LM35_GetTemperature();
+[v _temperature `f ~T0 @X0 1 a ]
+[e = _temperature ( _LM35_GetTemperature ..  ]
 "79
-[; ;mcc_generated_files/timer/src/tmr2.c: 79:     uint8_t readVal;
-[v _readVal `uc ~T0 @X0 1 a ]
-"80
-[; ;mcc_generated_files/timer/src/tmr2.c: 80:     readVal = TMR2;
-[e = _readVal _TMR2 ]
-"81
-[; ;mcc_generated_files/timer/src/tmr2.c: 81:     return readVal;
-[e ) _readVal ]
-[e $UE 639  ]
+[; ;main.c: 79:         uint16_t duty_cycle = update_PWM_duty_cycle(temperature);
+[v _duty_cycle `us ~T0 @X0 1 a ]
+[e = _duty_cycle ( _update_PWM_duty_cycle (1 _temperature ]
 "82
-[; ;mcc_generated_files/timer/src/tmr2.c: 82: }
-[e :UE 639 ]
-}
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _TMR2_Write `(v ~T0 @X0 1 ef1`uc ]
+[; ;main.c: 82:         SendCommand(0x09);
+[e ( _SendCommand (1 -> -> 9 `i `uc ]
+"83
+[; ;main.c: 83:         uint16_t batteryVoltage = ReadData();
+[v _batteryVoltage `us ~T0 @X0 1 a ]
+[e = _batteryVoltage ( _ReadData ..  ]
 "85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
-{
-[e :U _TMR2_Write ]
-"84
-[; ;mcc_generated_files/timer/src/tmr2.c: 84: void TMR2_Write(uint8_t timerVal)
-[v _timerVal `uc ~T0 @X0 1 r1 ]
-"85
-[; ;mcc_generated_files/timer/src/tmr2.c: 85: {
-[f ]
+[; ;main.c: 85:         UART_Send_String("Temperature: ");
+[e ( _UART_Send_String (1 :s 1C ]
+"86
+[; ;main.c: 86:         char temp_str[10];
+[v _temp_str `uc ~T0 @X0 -> 10 `i a ]
 "87
-[; ;mcc_generated_files/timer/src/tmr2.c: 87:     TMR2 = timerVal;;
-[e = _TMR2 _timerVal ]
+[; ;main.c: 87:         sprintf(temp_str, "%.1f%s", temperature, "\u00B0C");
+[e ( _sprintf (1 , , (. , &U _temp_str :s 2C -> _temperature `d :s 3C ]
 "88
-[; ;mcc_generated_files/timer/src/tmr2.c: 88: }
-[e :UE 640 ]
-}
+[; ;main.c: 88:         UART_Send_String(temp_str);
+[e ( _UART_Send_String (1 -> &U _temp_str `*Cuc ]
+"89
+[; ;main.c: 89:         UART_Send_String(", Fan duty cycle: ");
+[e ( _UART_Send_String (1 :s 4C ]
 "90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _TMR2_PeriodCountSet `(v ~T0 @X0 1 ef1`ui ]
+[; ;main.c: 90:         char duty_cycle_str[4];
+[v _duty_cycle_str `uc ~T0 @X0 -> 4 `i a ]
 "91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
-{
-[e :U _TMR2_PeriodCountSet ]
-"90
-[; ;mcc_generated_files/timer/src/tmr2.c: 90: void TMR2_PeriodCountSet(size_t periodVal)
-[v _periodVal `ui ~T0 @X0 1 r1 ]
-"91
-[; ;mcc_generated_files/timer/src/tmr2.c: 91: {
-[f ]
+[; ;main.c: 91:         sprintf(duty_cycle_str, "%d", duty_cycle);
+[e ( _sprintf (1 , (. , &U _duty_cycle_str :s 5C -> _duty_cycle `ui ]
 "92
-[; ;mcc_generated_files/timer/src/tmr2.c: 92:    PR2 = (uint8_t) periodVal;
-[e = _PR2 -> _periodVal `uc ]
+[; ;main.c: 92:         UART_Send_String(duty_cycle_str);
+[e ( _UART_Send_String (1 -> &U _duty_cycle_str `*Cuc ]
 "93
-[; ;mcc_generated_files/timer/src/tmr2.c: 93: }
-[e :UE 641 ]
-}
+[; ;main.c: 93:         UART_Send_String("%, Battery voltage: ");
+[e ( _UART_Send_String (1 :s 6C ]
+"94
+[; ;main.c: 94:         char voltage_str[10];
+[v _voltage_str `uc ~T0 @X0 -> 10 `i a ]
 "95
-[; ;mcc_generated_files/timer/src/tmr2.c: 95: void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void)){
-[v _TMR2_OverflowCallbackRegister `(v ~T0 @X0 1 ef1`*F4894 ]
-{
-[e :U _TMR2_OverflowCallbackRegister ]
-[v _InterruptHandler `*F4896 ~T0 @X0 1 r1 ]
-[f ]
+[; ;main.c: 95:         sprintf(voltage_str, "%dmV", batteryVoltage);
+[e ( _sprintf (1 , (. , &U _voltage_str :s 7C -> _batteryVoltage `ui ]
 "96
-[; ;mcc_generated_files/timer/src/tmr2.c: 96:     TMR2_OverflowCallback = InterruptHandler;
-[e = _TMR2_OverflowCallback _InterruptHandler ]
+[; ;main.c: 96:         UART_Send_String(voltage_str);
+[e ( _UART_Send_String (1 -> &U _voltage_str `*Cuc ]
 "97
-[; ;mcc_generated_files/timer/src/tmr2.c: 97: }
-[e :UE 642 ]
-}
-"99
-[; ;mcc_generated_files/timer/src/tmr2.c: 99: static void TMR2_DefaultOverflowCallback(void){
-[v _TMR2_DefaultOverflowCallback `(v ~T0 @X0 1 sf ]
+[; ;main.c: 97:         UART_Send_String("%\r\n");
+[e ( _UART_Send_String (1 :s 8C ]
+"100
+[; ;main.c: 100:         do { LATDbits.LATD0 = ~LATDbits.LATD0; } while(0);
+[e :U 663 ]
 {
-[e :U _TMR2_DefaultOverflowCallback ]
-[f ]
-"102
-[; ;mcc_generated_files/timer/src/tmr2.c: 102: }
-[e :UE 643 ]
+[e = . . _LATDbits 0 0 -> ~ -> . . _LATDbits 0 0 `i `uc ]
 }
-"104
-[; ;mcc_generated_files/timer/src/tmr2.c: 104: void TMR2_Tasks(void)
-[v _TMR2_Tasks `(v ~T0 @X0 1 ef ]
-"105
-[; ;mcc_generated_files/timer/src/tmr2.c: 105: {
+[e :U 662 ]
+"103
+[; ;main.c: 103:         do { LATDbits.LATD1 = ~LATDbits.LATD1; } while(0);
+[e :U 666 ]
 {
-[e :U _TMR2_Tasks ]
-[f ]
+[e = . . _LATDbits 0 1 -> ~ -> . . _LATDbits 0 1 `i `uc ]
+}
+[e :U 665 ]
 "106
-[; ;mcc_generated_files/timer/src/tmr2.c: 106:     if(PIR1bits.TMR2IF)
-[e $ ! != -> . . _PIR1bits 0 1 `i -> 0 `i 645  ]
-"107
-[; ;mcc_generated_files/timer/src/tmr2.c: 107:     {
+[; ;main.c: 106:         do { LATDbits.LATD2 = ~LATDbits.LATD2; } while(0);
+[e :U 669 ]
 {
+[e = . . _LATDbits 0 2 -> ~ -> . . _LATDbits 0 2 `i `uc ]
+}
+[e :U 668 ]
 "109
-[; ;mcc_generated_files/timer/src/tmr2.c: 109:         PIR1bits.TMR2IF = 0;
-[e = . . _PIR1bits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 109:         _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "110
-[; ;mcc_generated_files/timer/src/tmr2.c: 110:         TMR2_OverflowCallback();
-[e ( *U _TMR2_OverflowCallback ..  ]
+[; ;main.c: 110:     }
+}
+[e :U 658 ]
+[e $U 659  ]
+[e :U 660 ]
 "111
-[; ;mcc_generated_files/timer/src/tmr2.c: 111:     }
+[; ;main.c: 111: }
+[e :UE 657 ]
 }
-[e :U 645 ]
-"112
-[; ;mcc_generated_files/timer/src/tmr2.c: 112: }
-[e :UE 644 ]
-}
+[p f _sprintf 8724608 ]
+[a 2C 37 46 49 102 37 115 0 ]
+[a 5C 37 100 0 ]
+[a 7C 37 100 109 86 0 ]
+[a 3C 18446744073709551554 18446744073709551536 67 0 ]
+[a 1C 84 101 109 112 101 114 97 116 117 114 101 58 32 0 ]
+[a 4C 44 32 70 97 110 32 100 117 116 121 32 99 121 99 108 101 58 32 0 ]
+[a 6C 37 44 32 66 97 116 116 101 114 121 32 118 111 108 116 97 103 101 58 32 0 ]
+[a 8C 37 13 10 0 ]

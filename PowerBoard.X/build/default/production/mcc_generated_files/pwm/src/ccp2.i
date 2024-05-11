@@ -1,4 +1,4 @@
-# 1 "mcc_generated_files/timer/src/tmr2.c"
+# 1 "mcc_generated_files/pwm/src/ccp2.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "mcc_generated_files/timer/src/tmr2.c" 2
-# 38 "mcc_generated_files/timer/src/tmr2.c"
+# 1 "mcc_generated_files/pwm/src/ccp2.c" 2
+# 37 "mcc_generated_files/pwm/src/ccp2.c"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 1 3
 # 18 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -8112,112 +8112,42 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 33 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\xc.h" 2 3
-# 38 "mcc_generated_files/timer/src/tmr2.c" 2
+# 37 "mcc_generated_files/pwm/src/ccp2.c" 2
 
-# 1 "mcc_generated_files/timer/src/../tmr2.h" 1
-# 39 "mcc_generated_files/timer/src/../tmr2.h"
+# 1 "mcc_generated_files/pwm/src/../ccp2.h" 1
+# 42 "mcc_generated_files/pwm/src/../ccp2.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.46\\pic\\include\\c99\\stdbool.h" 1 3
-# 39 "mcc_generated_files/timer/src/../tmr2.h" 2
-# 55 "mcc_generated_files/timer/src/../tmr2.h"
- void TMR2_Initialize(void);
-# 64 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Start(void);
-# 73 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Stop(void);
-# 82 "mcc_generated_files/timer/src/../tmr2.h"
-uint8_t TMR2_Read(void);
-# 91 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_Write(uint8_t timerVal);
-# 100 "mcc_generated_files/timer/src/../tmr2.h"
-void TMR2_PeriodCountSet(size_t periodVal);
-
-
-
-
-
-
-
-void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void));
-
-
-
-
-
-
-
-void TMR2_Tasks(void);
-# 39 "mcc_generated_files/timer/src/tmr2.c" 2
-
-
-static void (*TMR2_OverflowCallback)(void);
-static void TMR2_DefaultOverflowCallback(void);
-
-
-
-
-
-void TMR2_Initialize(void){
-
-
-
-    PR2 = 0x3F;
-
-    TMR2 = 0x0;
-
-
-     PIR1bits.TMR2IF = 0;
-
-    T2CON = 0x1C;
-
-
-    TMR2_OverflowCallbackRegister(TMR2_DefaultOverflowCallback);
-}
-
-void TMR2_Start(void)
+# 42 "mcc_generated_files/pwm/src/../ccp2.h" 2
+# 54 "mcc_generated_files/pwm/src/../ccp2.h"
+void CCP2_Initialize(void);
+# 63 "mcc_generated_files/pwm/src/../ccp2.h"
+void CCP2_LoadDutyValue(uint16_t dutyValue);
+# 38 "mcc_generated_files/pwm/src/ccp2.c" 2
+# 50 "mcc_generated_files/pwm/src/ccp2.c"
+void CCP2_Initialize(void)
 {
 
-    T2CONbits.TMR2ON = 1;
+
+
+    CCP2CON = 0xC;
+
+
+    CCPR2H = 0x0;
+
+
+    CCPR2L = 0x0;
+
+
+    CCPTMRSbits.C2TSEL = 0x0;
 }
 
-void TMR2_Stop(void)
+void CCP2_LoadDutyValue(uint16_t dutyValue)
 {
-
-    T2CONbits.TMR2ON = 0;
-}
-
-uint8_t TMR2_Read(void)
-{
-    uint8_t readVal;
-    readVal = TMR2;
-    return readVal;
-}
-
-void TMR2_Write(uint8_t timerVal)
-{
-
-    TMR2 = timerVal;;
-}
-
-void TMR2_PeriodCountSet(size_t periodVal)
-{
-   PR2 = (uint8_t) periodVal;
-}
-
-void TMR2_OverflowCallbackRegister(void (* InterruptHandler)(void)){
-    TMR2_OverflowCallback = InterruptHandler;
-}
-
-static void TMR2_DefaultOverflowCallback(void){
+   dutyValue &= 0x03FF;
 
 
-}
+    CCPR2L = ((dutyValue & 0x03FC) >> 2);
 
-void TMR2_Tasks(void)
-{
-    if(PIR1bits.TMR2IF)
-    {
 
-        PIR1bits.TMR2IF = 0;
-        TMR2_OverflowCallback();
-    }
+    CCP2CON = (uint8_t)((CCP2CON & 0xCF) | ((dutyValue & 0x0003) << 4));
 }
