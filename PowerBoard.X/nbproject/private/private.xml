@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/@@@current_project/Smart-Battery-Power-Board/PowerBoard.X/main.c</file>
+            <file>file:/D:/@@@current_project/Smart-Battery-Power-Board/PowerBoard.X/mcc_generated_files/i2c_host/src/mssp1.c</file>
+            <file>file:/D:/@@@current_project/Smart-Battery-Power-Board/PowerBoard.X/mcc_generated_files/uart/src/eusart1.c</file>
+            <file>file:/D:/@@@current_project/Smart-Battery-Power-Board/PowerBoard.X/mcc_generated_files/uart/eusart1.h</file>
+        </group>
     </open-files>
 </project-private>

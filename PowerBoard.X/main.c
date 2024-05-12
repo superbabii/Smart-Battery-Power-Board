@@ -53,13 +53,13 @@ uint16_t update_PWM_duty_cycle(float temperature) {
 }
 
 // Function to send a command to the smart battery
-void SendCommand(uint8_t command) {
+void SendCommandToSmartBattery(uint8_t command) {
     // Start I2C communication and send command to battery
     I2C1_Write(BATTERY_ADDRESS_WRITE, &command, sizeof(command));
 }
 
 // Function to read data from the smart battery
-uint16_t ReadData(void) {
+uint16_t ReadDataFromSmartBattery(void) {
     uint16_t data;
     // Read data from battery
     I2C1_Read(BATTERY_ADDRESS_READ, (uint8_t*)&data, sizeof(data));
@@ -79,8 +79,8 @@ int main(void)
         uint16_t duty_cycle = update_PWM_duty_cycle(temperature);
         
         // Read battery voltage
-        SendCommand(0x09); // Send command code to read voltage
-        uint16_t batteryVoltage = ReadData(); // Read voltage data from battery
+        SendCommandToSmartBattery(0x09); // Send command code to read voltage
+        uint16_t batteryVoltage = ReadDataFromSmartBattery(); // Read voltage data from battery
 
         UART_Send_String("Temperature: ");
         char temp_str[10];
